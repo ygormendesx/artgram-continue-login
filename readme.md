@@ -12,4 +12,4 @@ Technologies used:
 
 Preview:
 
-![preview](.\readme\preview.JPG)
+![preview](.\readme\preview.png)
