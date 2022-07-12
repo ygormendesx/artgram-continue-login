@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.artgram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.artgram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.artgram-phone img {
+    height: 50rem;
+}
+
+.artgram-join {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 42%;
+    min-height: 45rem;
+}
+
+.rect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.4rem 0;
+    border: 1px solid lightgray;
+}
+
+.rect:nth-child(1) {
+    min-height: 27rem;
+}
+
+.artgram-logo {
+    height: 3rem;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.profile-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
+.artgram-login {
+    background-color: #0095f6;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.artgram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.not-account {
+    color: #A0A0A0;
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.store {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3.6rem;
+    width: 12.3rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('../src/apple-app-store.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('../src/google-app.png');
+}
+
+@media (max-width: 1024px) {
+    .artgram-wrapper {
+        width: 90%;
+    }   
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #fff;
+    }
+
+    .artgram-wrapper {
+        width: 90%;
+    }
+
+    .artgram-phone {
+        display: none;
+    }
+
+    .artgram-join {
+        width: 100%;
+    }
+
+    .rect {
+        border: 1px solid transparent;
+    }
+}
