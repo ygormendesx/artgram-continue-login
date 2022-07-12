@@ -6,7 +6,7 @@
 
 Technologies used:
 
-<img src=".\readme\html css.png" alt="html css" style="zoom:25%;" />
+<img src=".\readme\html-css.png" alt="html css" style="zoom:25%;" />
 
 
 
